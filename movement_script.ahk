@@ -1,8 +1,22 @@
 #Requires AutoHotkey v2.0
 
 ; Instantly moves the cursor to the center of the screen
-centerMouse() {
+CenterMouse() {
     MouseMove(A_ScreenWidth // 2, A_ScreenHeight // 2, 0)
+}
+
+ReturnToInitialPosition(coords) {
+    MouseMove(coords.x, coords.y, 2)
+}
+
+; Returns current mouse position
+GetMousePosition() {
+    x := 0
+    y := 0
+
+    MouseGetPos(&x, &y)
+
+    return {x: x, y: y}
 }
 
 ; Slowly moves the mouse
@@ -33,12 +47,14 @@ SlowMouseMove(DistanceX, DistanceY)
 }
 
 ; Orchestrate everything to change map
-changeMap(x, y) {
+ChangeMap(x, y) {
     If WinActive("Dofus") {
-        centerMouse()
+        initialPositionCoords := GetMousePosition()
+        CenterMouse()
         Click("down")
         SlowMouseMove(x, y) 
         Click("up")
+        ReturnToInitialPosition(initialPositionCoords)
     } else {
         ; Sends the regular command if not in Dofus
         send "{" A_ThisHotkey "}"
@@ -47,22 +63,22 @@ changeMap(x, y) {
 
 Left::
     {
-        changeMap(200, 0)
+        ChangeMap(200, 0)
 
     }
 
 Right::
     {
-        changeMap(-200, 0)
+        ChangeMap(-200, 0)
     }
 
 Up::
     {
-        changeMap(0, 200)
+        ChangeMap(0, 200)
     }
 
 Down::
     {
-        changeMap(0, -200)
+        ChangeMap(0, -200)
     }
 
