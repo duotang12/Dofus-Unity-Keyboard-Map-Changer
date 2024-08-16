@@ -1,5 +1,12 @@
+<div style="text-align:center">
+    <img width="33%" src="./logo.png" />
+</div>
+
 # Dofus Unity Keyboard Map Changer
 
+By [duotang12](https://github.com/duotang12) (me) - Shoutout to [Ankama](https://www.ankama.com/en) for the game!
+
+---
 Changez de map avec un seul bouton dans Dofus Unity!
 
 Ce petit script utilise la nouvelle fonctionnalité de Dofus Unity pour cliquer et bouger la souris afin de changer de map en fonctione de la direction choisie sur le clavier.
@@ -16,7 +23,7 @@ Les touches fléchées fonctionnent régulièrement dans les autres applications
 3. Focuser l'application Dofus - **Le jeu doit être centré dans l'écran**
 4. Appuyer sur une flèche du clavier
 
-# English version
+---
 
 Change map with only one button in Dofus Unity!
 
