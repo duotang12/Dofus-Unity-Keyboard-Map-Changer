@@ -13,7 +13,7 @@ Les touches fléchées fonctionnent régulièrement dans les autres applications
 
 1. Installer [AutoHotkey](https://www.autohotkey.com/)
 2. Lancer le script
-3. Focuser l'application Dofus
+3. Focuser l'application Dofus - **Le jeu doit être centré dans l'écran**
 4. Appuyer sur une flèche du clavier
 
 # English version
@@ -31,5 +31,5 @@ Arrow keys will work as usual in other application**
 
 1. Install [AutoHotkey](https://www.autohotkey.com/)
 2. Launch the script
-3. Focus Dofus
+3. Focus Dofus - **The game must be centered in the screen**
 4. Press an arrow key!
