@@ -48,7 +48,7 @@ SlowMouseMove(DistanceX, DistanceY)
 
 ; Orchestrate everything to change map
 ChangeMap(x, y) {
-    If WinActive("Dofus") {
+    If WinActive("ahk_exe Dofus.exe") {
         initialPositionCoords := GetMousePosition()
         CenterMouse()
         Click("down")
@@ -61,22 +61,25 @@ ChangeMap(x, y) {
     }
 }
 
++a::
 Left::
     {
         ChangeMap(200, 0)
 
     }
-
++d::
 Right::
     {
         ChangeMap(-200, 0)
     }
 
++w::
 Up::
     {
         ChangeMap(0, 200)
     }
 
++s::
 Down::
     {
         ChangeMap(0, -200)
