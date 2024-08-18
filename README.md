@@ -1,6 +1,4 @@
-<div>
-    <img width="33%" src="./logo.png" />
-</div>
+<img width="20%" src="./logo.png" />
 
 # Dofus Unity Keyboard Map Changer
 
