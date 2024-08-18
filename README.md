@@ -19,7 +19,12 @@ Les touches fléchées fonctionnent régulièrement dans les autres applications
 1. Installer [AutoHotkey](https://www.autohotkey.com/)
 2. Lancer le script
 3. Focuser l'application Dofus - **Le jeu doit être centré dans l'écran**
-4. Appuyer sur une flèche du clavier
+4. Appuyer sur une flèche du clavier ou une combinaison de touches supportée!
+
+## Touches qui peuvent être utilisées pour bouger:
+
+- Touches fléchées
+- Combinaison de Shift+A,S,D,W (Si vous les activez en décommentant le code)
 
 ---
 
@@ -37,4 +42,9 @@ Arrow keys will work as usual in other application**
 1. Install [AutoHotkey](https://www.autohotkey.com/)
 2. Launch the script
 3. Focus Dofus - **The game must be centered in the screen**
-4. Press an arrow key!
+4. Press an arrow key or a supported key combination!
+
+## Touches qui peuvent être utilisées pour bouger:
+
+- Arrow keys
+- Combination of Shift+A,S,D,W (Enabled by uncommenting the code)
