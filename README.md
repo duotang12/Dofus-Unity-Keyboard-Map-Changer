@@ -26,7 +26,7 @@ Les touches fléchées fonctionnent régulièrement dans les autres applications
 ## Touches qui peuvent être utilisées pour bouger:
 
 - Touches fléchées
-- Combinaison de Shift+A,S,D,W
+- Combinaison de Shift+A,S,D,W (Si vous les activez en décommentant le code)
 
 ---
 
@@ -49,4 +49,4 @@ Arrow keys will work as usual in other application**
 ## Touches qui peuvent être utilisées pour bouger:
 
 - Arrow keys
-- Combination of Shift+A,S,D,W
+- Combination of Shift+A,S,D,W (Enabled by uncommenting the code)

@@ -61,25 +61,25 @@ ChangeMap(x, y) {
     }
 }
 
-+a::
+; +a::
 Left::
     {
         ChangeMap(200, 0)
 
     }
-+d::
+; +d::
 Right::
     {
         ChangeMap(-200, 0)
     }
 
-+w::
+; +w::
 Up::
     {
         ChangeMap(0, 200)
     }
 
-+s::
+; +s::
 Down::
     {
         ChangeMap(0, -200)
