@@ -1,3 +1,6 @@
+**L'autopilotage intégré aura été une bénédiction qui rend se repo inutile**
+
+
 <img width="20%" src="./logo.png" />
 
 # Dofus Unity Keyboard Map Changer
